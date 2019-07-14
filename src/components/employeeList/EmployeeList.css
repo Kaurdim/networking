@@ -1,0 +1,15 @@
+.employee-list-container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 2vw;
+}
+
+.employee-list {
+  width: 100%;
+
+}
+.employee-list-item {
+  width: 100%;
+  margin-bottom: 5px;
+}

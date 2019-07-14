@@ -1,0 +1,28 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: var(--header-height);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 1vmin);
+  box-shadow: 0 1px 1px 0px #4fa13f;
+  background: white;
+  z-index: 2;
+}
+
+.app-header-link {
+  font-weight: 600;
+  color: #4fa13f;
+}
+
+.app-caption {
+  font-size: calc(20px + 1vmin);
+  color: #4fa13f;
+}
+
+.app-navigation {
+  margin-left: auto;
+}

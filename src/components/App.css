@@ -1,0 +1,18 @@
+:root {
+--header-height: 50px;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: calc(var(--header-height) + 20px);
+  background-color: rgb(238, 238, 238);
+}
+
+.notify {
+  text-align: center;
+  font-weight: 600;
+}
+

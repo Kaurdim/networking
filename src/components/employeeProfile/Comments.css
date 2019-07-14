@@ -1,0 +1,23 @@
+.comments {
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.comment {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  color: #333;
+}
+
+.comment > * {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: calc(6px + 1vh);
+}
+
+.comment-date {
+  font-size: calc(2px + 1vh);
+  padding: 0 5px;
+  color: #dbdbdb;
+}

@@ -1,0 +1,8 @@
+export const SET_EMPLOYEES = 'SET_EMPLOYEES';
+
+export const SET_CURRENT_EMPLOYEE = 'SET_CURRENT_EMPLOYEE';
+export const ADD_COMMENT = 'ADD_COMMENT';
+
+
+export const FETCH_ERROR = 'FETCH_ERROR';
+export const FETCH_SUCCESS = 'FETCH_SUCCESS';
