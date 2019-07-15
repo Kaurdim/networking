@@ -27,7 +27,7 @@ export class EmployeeProfile extends Component {
     }))
     const commentsForEmploee = this.props.comments
       .filter(c => c.employeeId === this.props.currentEmployee.id)
-      .sort((a, b) => b.time - a.time).slice(0, 4);
+      .sort((a, b) => b.time - a.time).slice(0, 5).reverse();
     return (
       <>
         <AvatarCarusel employees={caruselData} selcetEmlpoyee={this.setCurrentEmployee}/>

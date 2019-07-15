@@ -52,6 +52,10 @@
   background-color: #aaa;
 }
 
+.comment-form-btn:hover {
+  box-shadow: 0 0 8px -1px #333;
+}
+
 .error-notify {
   font-size: calc(5px + 1vh);
   color: #f74741;

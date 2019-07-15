@@ -13,3 +13,7 @@
   width: 100%;
   margin-bottom: 5px;
 }
+
+.employee-list-item:hover {
+  box-shadow: 0 0 12px -6px #333;
+}
