@@ -19,4 +19,4 @@ npm start
 
 3. Production сборка осуществляется командой:
 ```
-npm build
+npm run build
